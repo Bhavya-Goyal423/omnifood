@@ -14,7 +14,7 @@ Default : 1
 - Primary: #e67e22
 
 - Tints:  #fdf2e9;
-- Shades:
+- Shades: #cf711f
 - Accents:
 - Greys: #555 , #333;
 
@@ -36,7 +36,7 @@ SPACING SYSTEM (px)
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
