@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero.component";
 import How from "./components/How Section/How.component";
 import Meals from "./components/Meals Section/Meals.component";
 import Navbar from "./components/Navbar/Navbar.component";
+import Testimonial from "./components/Testimonial Section/Testimonial.component";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Featured />
         <How />
         <Meals />
+        <Testimonial />
       </main>
     </>
   );
