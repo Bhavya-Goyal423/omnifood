@@ -20,7 +20,7 @@ export default function Navbar() {
                 e.preventDefault();
               }}
             >
-              Section 1
+              How it works
             </a>
           </li>
           <li>
@@ -31,7 +31,7 @@ export default function Navbar() {
                 e.preventDefault();
               }}
             >
-              Section 2
+              Meals
             </a>
           </li>
           <li>
@@ -42,7 +42,7 @@ export default function Navbar() {
                 e.preventDefault();
               }}
             >
-              Section 3
+              Testimonials
             </a>
           </li>
           <li>
@@ -53,7 +53,7 @@ export default function Navbar() {
                 e.preventDefault();
               }}
             >
-              Section 4
+              Pricing
             </a>
           </li>
           <li>
@@ -64,7 +64,7 @@ export default function Navbar() {
                 e.preventDefault();
               }}
             >
-              Section 5
+              Try for free
             </a>
           </li>
         </ul>
