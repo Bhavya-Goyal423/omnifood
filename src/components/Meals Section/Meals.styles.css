@@ -79,6 +79,7 @@
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 .all-recipies {
   text-align: center;
