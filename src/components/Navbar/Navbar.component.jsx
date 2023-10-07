@@ -3,7 +3,13 @@ import "./Navbar.styles.css";
 export default function Navbar() {
   return (
     <header className="header">
-      <img src="/img/omnifood-logo.png" alt="Omnifood logo" className="logo" />
+      <a href="/">
+        <img
+          src="/img/omnifood-logo.png"
+          alt="Omnifood logo"
+          className="logo"
+        />
+      </a>
       <nav className="main-nav">
         <ul className="main-nav-list">
           <li>

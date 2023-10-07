@@ -1,5 +1,6 @@
 import CTA from "./components/CTA Setion/Cta.component";
 import Featured from "./components/Featured Section/Featured.component";
+import Footer from "./components/Footer/Footer.component";
 import Hero from "./components/Hero/Hero.component";
 import How from "./components/How Section/How.component";
 import Meals from "./components/Meals Section/Meals.component";
@@ -20,6 +21,7 @@ function App() {
         <Pricing />
         <CTA />
       </main>
+      <Footer />
     </>
   );
 }
