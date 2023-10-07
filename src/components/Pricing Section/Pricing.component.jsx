@@ -9,7 +9,7 @@ export default function Pricing() {
           Eating well without breaking the bank
         </h2>
       </div>
-      <div className="container grid grid--2-cols">
+      <div className="container grid grid--2-cols margin-bottom-md">
         <div className="pricing-plan pricing-plan--starter">
           <header className="plan-header">
             <p className="plan-name">Starter</p>
@@ -78,7 +78,98 @@ export default function Pricing() {
           </div>
         </div>
       </div>
-      <div className="container grid grid--4-cols"></div>
+      <div className="container grid">
+        <aside className="plan-details">
+          Prices include all applicable taxes. You can cancel at any time. Both
+          plans include the following:
+        </aside>
+      </div>
+      <div className="container grid grid--4-cols">
+        {/*---------------------- Feature 1 -------------------- */}
+        <div className="feature">
+          <ion-icon
+            className="feature-icon"
+            name="infinite-outline"
+            style={{
+              color: "#e67e22",
+              height: "3.2rem",
+              width: "3.2rem",
+              marginBottom: "3.2rem",
+              padding: "1.6rem",
+              borderRadius: "50%",
+              backgroundColor: "#fdf2e9",
+            }}
+          ></ion-icon>
+          <p className="feature-title">Never cook again</p>
+          <p className="feature-text">
+            Our subscriptions cober 365 days per year, even including major
+            holidays.
+          </p>
+        </div>
+        {/*---------------------- Feature 2 -------------------- */}
+        <div className="feature">
+          <ion-icon
+            className="feature-icon"
+            name="nutrition-outline"
+            style={{
+              color: "#e67e22",
+              height: "3.2rem",
+              width: "3.2rem",
+              marginBottom: "3.2rem",
+              padding: "1.6rem",
+              borderRadius: "50%",
+              backgroundColor: "#fdf2e9",
+            }}
+          ></ion-icon>
+          <p className="feature-title">Local and organic</p>
+          <p className="feature-text">
+            Our cooks only use local, fresh, and organic products to prepare
+            your meals.
+          </p>
+        </div>
+        {/*---------------------- Feature 3 -------------------- */}
+        <div className="feature">
+          <ion-icon
+            className="feature-icon"
+            name="leaf-outline"
+            style={{
+              color: "#e67e22",
+              height: "3.2rem",
+              width: "3.2rem",
+              marginBottom: "3.2rem",
+              padding: "1.6rem",
+              borderRadius: "50%",
+              backgroundColor: "#fdf2e9",
+            }}
+          ></ion-icon>
+          <p className="feature-title">No waste</p>
+          <p className="feature-text">
+            All our partners only use reusable containers to package all your
+            meals.
+          </p>
+        </div>
+        {/*---------------------- Feature 4 -------------------- */}
+        <div className="feature">
+          <ion-icon
+            className="feature-icon"
+            name="pause-outline"
+            style={{
+              color: "#e67e22",
+              height: "3.2rem",
+              width: "3.2rem",
+              marginBottom: "3.2rem",
+              padding: "1.6rem",
+              borderRadius: "50%",
+              backgroundColor: "#fdf2e9",
+            }}
+          ></ion-icon>
+          <p className="feature-title">Pause anytime</p>
+          <p className="feature-text">
+            Going on vacation? Just pause your subscription, and we refund
+            unused days.
+          </p>
+        </div>
+      </div>
     </section>
   );
 }

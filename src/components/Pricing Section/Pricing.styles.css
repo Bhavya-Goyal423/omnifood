@@ -68,3 +68,23 @@
 
   transform: rotate(45deg);
 }
+
+.feature-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
