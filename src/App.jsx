@@ -1,3 +1,4 @@
+import CTA from "./components/CTA Setion/Cta.component";
 import Featured from "./components/Featured Section/Featured.component";
 import Hero from "./components/Hero/Hero.component";
 import How from "./components/How Section/How.component";
@@ -17,6 +18,7 @@ function App() {
         <Meals />
         <Testimonial />
         <Pricing />
+        <CTA />
       </main>
     </>
   );
